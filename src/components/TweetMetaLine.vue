@@ -1,18 +1,17 @@
 <script>
 
-import {Pie,mixins} from 'vue-chartjs'
+import {Line, mixins} from 'vue-chartjs'
 
 export default {
-  extends: Pie,
+  extends: Line,
   mixins: [mixins.reactiveProp],
   data() {
     return {
       chartOptions: {
-        title: "Tweet letter count",
+        title: "Letter count change",
         responsive: true,
         legend: {
-          display: true,
-          position: 'bottom'
+          display: false
         }
       }
     }
