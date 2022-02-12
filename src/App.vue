@@ -18,8 +18,8 @@
 </template>
 
 <style>
-.max-width{
-  max-width: 80%!important;
+.max-width {
+  max-width: 80% !important;
 }
 </style>
 
@@ -44,7 +44,7 @@ export default {
     return {
       metasum: [],
       datacollection: {
-        labels: ['Programming', 'Season', 'Hobby'],
+        labels: ['Hobby', 'Programming', 'Season'],
         datasets: [
           {
             backgroundColor: ['#1006FF', '#99C802', '#FF0200'],
@@ -76,7 +76,7 @@ export default {
         console.log(this.metasum)
 
         this.datacollection = {
-          labels: ['Programming', 'Season', 'Hobby'],
+          labels: ['Hobby', 'Programming', 'Season'],
           datasets: [
             {
               backgroundColor: ['#1006FF', '#99C802', '#FF0200'],
